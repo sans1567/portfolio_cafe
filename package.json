@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_cafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass:./css",
+    "watch:sass": "sass ./sass:./css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}

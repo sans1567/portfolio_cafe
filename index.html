@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <meta name="description" content="sans_1567のポートフォリオサイトです。自然体で心地よいカフェのようなサイトを目指し見る人に安心感や優しさを与えられるようなサイト作りを心がけています">
+        <title>カフェサイト風デザインポートフォリオ|sans_1567|</title>
+        <link rel="stylesheet" href="./css/sample.css">
+        <link rel="icon" href="./images/favicon-cafe.svg" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Habibi&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <!--ヘッダー-->
+        <header class="header" role="banner">
+            <div class="header-inner">
+                <h1 class="header-logo"><a href="#">portfolio_cafe</a></h1>
+                <nav class="header-nav">
+                    <ul class="header-nav__items">
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">work</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+                <!--ハンバーガーメニューボタン-->
+                <div class="btn-trigger" id="btn01">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!--メニュー-->
+                <nav class="open-nav">
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">work</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--メイン-->
+        <main class="main" role="main">
+            <section class="main-visual">
+                <img id="slide1" src="./images/mv3.png" alt="ラテアート">
+                <img id="slide2" src="./images/mv1.png" alt="カフェのテラス席">
+                <img id="slide3" src="./images/mv2.png" alt="女性従業員とカフェ店内">
+                <img id="slide4" src="./images/mv4.png" alt="チョコケーキ">
+                <img id="slide5" src="./images/mv5.png" alt="ハンバーガー">
+            </section>
+
+            <section id="about" class="main-about">
+                <article>
+                    <div class="main-about__textset">
+                        <h3 class="main-about__title">
+                            <span>about</span>
+                        </h3>
+                        <p class="main-about__text">
+                            <span>このサイトはナチュラルで落ち着いた<br>雰囲気が伝わるようなサイトになるように作成しました<br>余白や画像の配置場所などのバランスを意識し<br>心地よく感じれるデザインを目指します<br>使用技術: HTML/CSS/JavaScript(Jquery)</span>
+                        </p>
+                    </div>
+                    <img src="./images/mf.png" alt="カフ店内席">
+                </article>
+            </section>
+
+            <section class="main-photo">
+                <article>
+                    <img src="./images/ph.png" alt="パンと目玉焼きと野菜">
+                </article>
+            </section>
+
+            <section class="main-shop">
+                <h2 class="main-shop__title">
+                    <span>shop</span>
+                    <span class="main-shop__title--primaryborder"></span>
+                    <span class="main-shop__title--secondaryborder"></span>
+                </h2>
+                <article>
+                    <img src="./images/sh.png" alt="カフェ店内窓側の席">
+                    <div class="main-shop__inner">
+                        <h3 class="main-shop__inner--title">portfolio_cafe</h3>
+                        <span>OPEN XX:XX CLOSE XX:XX<br>TEL XXX-XXX-XXXX<br>住所 XXXXXXXXX<br></span>
+                        <a class="main-shop__inner--maplink" href="#">Google MAP</a>
+                        <a class="man-shop__inner--reservationbtn" href="#">予約する</a>
+                    </div>
+                </article>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-inner">
+                <h2 class="footer-logo">
+                    <span>portfolio_cafe</span>
+                </h2>
+                <div class="footer-icon">
+                    <a href="#"><img src="./images/instagram-icon.svg" alt="インスタグラムアイコン"></a>
+                    <a href="#"><img src="./images/facebook-icon.svg" alt="フェイスブックアイコン"></a>
+                    <a href="#"><img src="./images/x-icon.svg" alt="Xアイコン"></a>
+                </div>
+                <p class="footer-copyright">©︎2025 portfolio_cafe All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html> 
